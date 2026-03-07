@@ -5,7 +5,7 @@ Homebrew formula for [GitWhy](https://gitwhy.ai) — the context layer for git.
 ## Install
 
 ```bash
-brew install quanng28/gitwhy-homebrew-tap/git-why
+brew install gitwhy-cli/tap/git-why
 ```
 
 ## Usage
