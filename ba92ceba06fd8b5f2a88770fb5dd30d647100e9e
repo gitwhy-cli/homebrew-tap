@@ -1,0 +1,25 @@
+Formula/git-why.rb
+  72aa24c039859edf 1-45
+README.md
+  72aa24c039859edf 1-16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.8",
+  "base_commit_sha": "ba92ceba06fd8b5f2a88770fb5dd30d647100e9e",
+  "prompts": {
+    "72aa24c039859edf": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "3bc306f0-7f6a-4cbf-9729-95ddd55cdc15",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Quan Nguyen <quannguyenminh27082007@gmail.com>",
+      "messages": [],
+      "total_additions": 61,
+      "total_deletions": 0,
+      "accepted_lines": 61,
+      "overriden_lines": 0
+    }
+  }
+}
