@@ -1,6 +1,6 @@
 class GitWhy < Formula
   desc "The context layer for git"
-  homepage "https://gitwhy.ai"
+  homepage "https://gitwhy.dev"
   version "0.2.1"
   license "MIT"
 
@@ -30,12 +30,11 @@ class GitWhy < Formula
 
   def caveats
     <<~EOS
-      To start using GitWhy, set up your repository:
+      To start using GitWhy, run:
 
-        cd /path/to/your/repo
         git why setup
 
-      For more info: https://gitwhy.ai
+      For more info: https://docs.gitwhy.dev
     EOS
   end
 

@@ -1,6 +1,6 @@
 # GitWhy Homebrew Tap
 
-Homebrew formula for [GitWhy](https://gitwhy.ai) — the context layer for git.
+Homebrew formula for [GitWhy](https://gitwhy.dev) — the context layer for git.
 
 ## Install
 
