@@ -1,26 +1,26 @@
 class GitWhy < Formula
   desc "The context layer for git"
   homepage "https://gitwhy.dev"
-  version "0.2.4"
+  version "0.2.5"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://dl.gitwhy.dev/v#{version}/gitwhy_#{version}_darwin_arm64.tar.gz"
-      sha256 "bf7b2db5afb54016c315ce3523900dd5527395ad441f62e8a285e0c502175cd1"
+      sha256 "e5fb20464e791449d252a84fda0adb4cfe0373d0a80c7a1ccfef796df976e218"
     else
       url "https://dl.gitwhy.dev/v#{version}/gitwhy_#{version}_darwin_amd64.tar.gz"
-      sha256 "b563dda1e605e498207a848b04dbf980cf10ea1cf09442e912f074190f833c5f"
+      sha256 "c7c3ce1e532bf365b85e7257c7066882f33284063dd0c3ff8d56b450f48deb92"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://dl.gitwhy.dev/v#{version}/gitwhy_#{version}_linux_arm64.tar.gz"
-      sha256 "3f82241366c6a24fa8ba2b65279dd1f92d76476600aa9f2db51ecd3b31b3688d"
+      sha256 "57b58bd65e773087449029ff60e033f28ca3017ba93d8a175bc2f4b2746c25fa"
     else
       url "https://dl.gitwhy.dev/v#{version}/gitwhy_#{version}_linux_amd64.tar.gz"
-      sha256 "f43a640f00ae95487811a4d5baf7b519e18b1d983e3da29405924e850f94c736"
+      sha256 "7a738051f15ff3dd29ca17a2e384a68cb245f73a0408f90b64bf7051afd0cc4a"
     end
   end
 
